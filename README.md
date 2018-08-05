@@ -1,6 +1,6 @@
 # Mail Panel
 
-![Mail Panel](https://cdn.rawgit.com/mobihack/gallery/cd188c06/docs/elemental-gallery-screenshot.png)
+![Mail Panel](https://cdn.rawgit.com/mobihack/mail-panel-design/42aeab56/docs/mail-panel-screenshot.png)
 
 
 Mail Panel is a template for a mail client.
