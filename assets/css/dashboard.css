@@ -1,0 +1,140 @@
+
+/** Common */
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.title{
+  font-family: 'Raleway', sans-serif;
+  color:#343a40
+}
+html, body {
+  overflow-y:hidden;
+  height:100%;
+}
+body{
+  padding-top: 110px;
+}
+header{
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  padding: 20px;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  background-color: white;
+}
+/*header .sep{
+  border-right: 1px solid lightgrey
+}*/
+header .brand{
+ 
+}
+header .brand div{
+  padding: .25rem 1.25rem;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.25rem;
+  color: white;
+  background-color: #007bff;
+  
+  border-radius: 0.25rem;
+}
+header .brand img{
+  width: 100%;
+  height: auto;
+}
+header input.form-control{
+  background-color: transparent;
+  border-color: rgba(0,0,0,0.2);
+  transition: 0.4s;
+  box-shadow: none;
+}
+header input.form-control:focus{
+  border-color: #007bff;
+  box-shadow: none;
+}
+header .btn.btn-outline-primary:not(:hover){
+  color: rgb(73, 80, 87);
+  border-color: #D5DADD
+}
+
+
+#sidebar{
+  position: fixed;
+}
+#sidebar .profile-mini{
+
+}
+#sidebar .profile-mini .media-object{
+  width:60px
+}
+#sidebar .profile-mini .media-body{
+  margin-left: 20px;
+}
+#sidebar .profile-mini .heading{
+  font-size: 1.1rem;
+  margin-bottom: 3px;
+}
+#sidebar .profile-mini .text{
+  font-size: 0.75rem;
+  margin: 0px;
+  color: #8C969D;
+}
+#sidebar .menu{
+
+}
+#sidebar .menu > .title{
+  color: rgba(0,0,0,0.5);
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+#sidebar .menu > .list-group > .list-group-item{
+  border-color: transparent;
+  padding: .25rem 1.25rem;
+  color: #495057;
+}
+#sidebar .menu > .list-group > .list-group-item:not(.active){
+
+}
+#sidebar .menu > .list-group > .list-group-item.active{
+  color: white;
+}
+#sidebar .menu > .list-group > .list-group-item.active .badge.badge-pill{
+  background-color: white;
+  color: #007bff;
+}
+#sidebar .menu > .list-group > .list-group-item:not(.active):hover{
+  background-color: rgba(0,0,0,0.05);
+}
+#sidebar .menu > .list-group > .list-group-item .icon{
+  margin-right: 0.5rem;
+  font-size: 1.25em
+}
+
+#mail-list .list-group{
+	height: 80vh;
+  overflow-y: scroll;
+}
+#mail-list .list-group > .list-group-item{
+  border-color: transparent;
+  padding: .25rem 1.25rem;
+}
+#mail-list .list-group > .list-group-item.active{
+  background-color: rgba(0,0,0,0.05);
+  color: #495057;
+}
+#mail-list .list-group > .list-group-item p{
+color:#838383
+}
+
+#mail-preview{
+  height: 80vh;
+  overflow-y: scroll;
+}
+#mail-preview .data{
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  margin-bottom: 0.5rem;
+} 
+/* Misc. Animations */
+.anim-hide {opacity: 0;}
+.anim-hide.js-animated {opacity: 1;}
+@keyframes zoomIn{0%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}50%{opacity:1}}
